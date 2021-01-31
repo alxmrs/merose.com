@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>The Merose Family</title>
     <style>
         body {
             max-width: 80%;
             color: white;
-            background-color: dimgrey;
+            background-color: #333;
             margin: 0 auto;
-            font-family: 'Courier New';
+            font-family: monospace;
         }
 
         h1 {
@@ -33,27 +34,50 @@
             text-align: center;
         }
 
+        a {
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            color: lightblue;
+            transition: .5s ease;
+        }
+
+        a[href*="//camille"] {
+            color: #fede00;
+        }
+
+        a[href*="//alx"] {
+            color: #a5f0a9;
+        }
+
+        a[href*="//wedding"] {
+            color: #417d81;
+        }
+
+        a:hover, a:focus, a:active {
+            color: white;
+            border-bottom: 2px solid white;
+        }
     </style>
 </head>
 <body>
 
-<h1 class="center">Welcome to the Merose family website!</h1>
+<h1 class="center">MEROSE FAMILY WEBSITE</h1>
 
 <div class="container">
     <div class="flex">
-        <h2>This way for Alex</h2>
-        <!-- TODO(cam): Add image here -->
+        <h2><a href="https://alxmrs.com/" target="_blank" rel="noreferrer">This way for Alex</a></h2>
+        <!-- TODO(al): Add image here -->
     </div>
 
     <div class="flex">
-        <h2>This way for Camille</h2>
-        <!-- TODO(cam): Add image here -->
+        <h2><a href="https://camille.merose.com/" target="_blank" rel="noreferrer">This way for Camille</a></h2>
+        <!-- TODO(al): Add image here -->
     </div>
 </div>
 
 <div class="center">
-    <h2>Check out our wedding</h2>
-    <!-- TODO(cam): Add image here -->
+    <h2><a href="https://wedding.merose.com/" target="_blank" rel="noreferrer">Check out our wedding</a></h2>
+    <!-- TODO(al): Add image here -->
 </div>
 
 </body>
