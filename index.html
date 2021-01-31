@@ -6,7 +6,7 @@
     <title>The Merose Family</title>
     <style>
         body {
-            max-width: 80%;
+            max-width: 90%;
             color: white;
             background-color: #333;
             margin: 0 auto;
@@ -14,7 +14,7 @@
         }
 
         h1 {
-            font-size: 10vh;
+            font-size: 9vh;
         }
 
         h2 {
@@ -23,11 +23,13 @@
 
         .container {
             display: flex;
+            flex-wrap: wrap;
         }
 
         .container .flex {
             flex: 1;
             text-align: center;
+            padding: 5px;
         }
 
         .center {
@@ -36,9 +38,9 @@
 
         a {
             text-decoration: none;
-            border-bottom: 2px solid transparent;
+            border-bottom: 1vmin solid transparent;
             color: lightblue;
-            transition: .5s ease;
+            transition: 1s ease;
         }
 
         a[href*="//camille"] {
@@ -55,7 +57,7 @@
 
         a:hover, a:focus, a:active {
             color: white;
-            border-bottom: 2px solid white;
+            border-bottom: 1vmin solid white;
         }
     </style>
 </head>
