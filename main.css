@@ -1,0 +1,38 @@
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #ddd;
+    background-color: #333;
+    padding: 0 10px;
+    font-family: monospace;
+}
+
+h1, h2, h3 {
+    line-height: 1.2
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: lightblue;
+    transition: 1s ease;
+}
+
+a[href*="//camille"] {
+    color: #fede00;
+}
+
+a[href*="//alex"] {
+    color: #a5f0a9;
+}
+
+a[href*="//wedding"] {
+    color: #f4cbb9;
+}
+
+a:hover, a:focus, a:active {
+    color: white;
+    border-bottom: 3px solid white;
+}

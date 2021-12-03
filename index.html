@@ -4,83 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>The Merose Family</title>
-    <style>
-        body {
-            max-width: 90%;
-            color: white;
-            background-color: #333;
-            margin: 0 auto;
-            font-family: monospace;
-        }
-
-        h1 {
-            font-size: 9vh;
-        }
-
-        h2 {
-            font-size: 8vh;
-        }
-
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .container .flex {
-            flex: 1;
-            text-align: center;
-            padding: 5px;
-        }
-
-        .center {
-            text-align: center;
-        }
-
-        a {
-            text-decoration: none;
-            border-bottom: 1vmin solid transparent;
-            color: lightblue;
-            transition: 1s ease;
-        }
-
-        a[href*="//camille"] {
-            color: #fede00;
-        }
-
-        a[href*="//alex"] {
-            color: #a5f0a9;
-        }
-
-        a[href*="//wedding"] {
-            color: #417d81;
-        }
-
-        a:hover, a:focus, a:active {
-            color: white;
-            border-bottom: 1vmin solid white;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-<h1 class="center">MEROSE FAMILY WEBSITE</h1>
+<h1 class="center">Merose Family Website</h1>
 
-<div class="container">
-    <div class="flex">
-        <h2><a href="https://alex.merose.com/" target="_self" rel="noreferrer">This way for Alex</a></h2>
-        <!-- TODO(al): Add image here -->
-    </div>
+<h2><a href="https://alex.merose.com/" target="_self" rel="noreferrer">Alex's Homepage</a></h2>
 
-    <div class="flex">
-        <h2><a href="https://camille.merose.com/" target="_self" rel="noreferrer">This way for Camille</a></h2>
-        <!-- TODO(al): Add image here -->
-    </div>
-</div>
+<h2><a href="https://camille.merose.com/" target="_self" rel="noreferrer">Camille's Homepage</a></h2>
 
-<div class="center">
-    <h2><a href="https://wedding.merose.com/" target="_self" rel="noreferrer">Check out our wedding</a></h2>
-    <!-- TODO(al): Add image here -->
-</div>
+<h2><a href="https://wedding.merose.com/" target="_self" rel="noreferrer">Our Wedding Website</a></h2>
 
+<h2 class="center">The latest with us:</h2>
+<ul>
+    <li>
+        <a href="https://camille.merose.com/blog/2021/09/07/email-to-nicole.html"
+           target="_self" rel="noreferrer">
+            An email I just wrote to my wedding planner began like this...
+        </a>
+    </li>
+    <li>
+        <a href="https://camille.merose.com/blog/2021/01/12/wedding-day.html" target="_self" rel="noreferrer">
+            Our Wedding Day
+        </a>
+    </li>
+    <li>
+        <a href="https://alex.merose.com/proposal/" target="_self" rel="noreferrer">
+            My Proposal
+        </a>
+    </li>
+    <li>
+        <a href="https://alex.merose.com/zettel/wedding/ring/" target="_self" rel="noreferrer">
+            How I chose an engagement ring
+        </a>
+    </li>
+</ul>
+
+<footer>Copyright 2021-2022, Alex & Camille Merose</footer>
 </body>
 </html>
