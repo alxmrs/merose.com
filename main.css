@@ -20,21 +20,56 @@ a {
     transition: 1s ease;
 }
 
-a[href*="//camille"] {
-    color: #fede00;
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #fff;
+        color: #444;
+    }
+
+    a {
+        color: dodgerblue;
+    }
+
+    a[href*="//camille"] {
+        color: #dbc106;
+    }
+
+    a[href*="//alex"] {
+        color: #2aa532;
+    }
+
+    a[href*="//wedding"] {
+        color: #ec8472;
+    }
+
+    a:hover, a:focus, a:active {
+        color: #666;
+        border-bottom: 3px solid #666;
+    }
 }
 
-a[href*="//alex"] {
-    color: #a5f0a9;
-}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #ddd;
+    }
 
-a[href*="//wedding"] {
-    color: #f4cbb9;
-}
+    a[href*="//camille"] {
+        color: #fede00;
+    }
 
-a:hover, a:focus, a:active {
-    color: white;
-    border-bottom: 3px solid white;
+    a[href*="//alex"] {
+        color: #a5f0a9;
+    }
+
+    a[href*="//wedding"] {
+        color: #f4cbb9;
+    }
+
+    a:hover, a:focus, a:active {
+        color: white;
+        border-bottom: 3px solid white;
+    }
 }
 
 @media screen and (max-width: 768px) {
