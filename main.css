@@ -38,15 +38,7 @@ a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 768px) {
-    #album {
+    iframe[src*="smugmug"] {
         width: 100%;
-        /*padding-left: 10px;*/
-        /*padding-right: 10px;*/
     }
 }
-
-/*@media only screen and (max-width: 600px) {*/
-/*    .pa-gallery-player-widget {*/
-/*        height: 480px;*/
-/*    }*/
-/*}*/
