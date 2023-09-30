@@ -42,6 +42,10 @@ a {
         color: #ec8472;
     }
 
+    a[href*="//vagabonvivants"] {
+        color: #FF81CD;
+    }
+
     a:hover, a:focus, a:active {
         color: #666;
         border-bottom: 3px solid #666;
@@ -64,6 +68,10 @@ a {
 
     a[href*="//wedding"] {
         color: #f4cbb9;
+    }
+
+    a[href*="//vagabonvivants"] {
+        color: #FF81CD;
     }
 
     a:hover, a:focus, a:active {
